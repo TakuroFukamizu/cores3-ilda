@@ -1,0 +1,4 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "RevA") (type "KiCad") (uri "${KIPRJMOD}/RevA.kicad_sym") (options "") (descr "Explicit electrical pin models"))
+)

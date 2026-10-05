@@ -1,0 +1,4 @@
+(fp_lib_table
+ (version 7)
+ (lib (name "RevA") (type "KiCad") (uri "${KIPRJMOD}/RevA.pretty") (options "") (descr "Self-contained reviewed footprints"))
+)

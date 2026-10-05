@@ -1,0 +1,161 @@
+﻿Reference,Value,Quantity,Population,Footprint,Akizuki_code,URL,Notes
+J1,CoreS3 M5-Bus,1,FIT,RevA:M5Bus_CoreS3_TypeA,,https://shop.m5stack.com/products/2-%E2%9C%96-15-pinheader-bus-socket-smd-for-13-2-module-10-sets,M5Stack A117 SMD Bus Socket 13.2 procurement candidate; check actual mating/mechanical fit. Official CoreS3 Type-A SMT geometry; not generic THT.
+J2,5V external 2A,1,FIT,"RevA:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",,,
+JP1,5V SOURCE,1,FIT,RevA:PinHeader_1x03_P2.54mm_Vertical,,,1-2 EXT (default); 2-3 BUS only after verifying CoreS3 5V budget. NEVER both.
+F1,T2A external fuse,1,FIT,"RevA:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",,,Connect external insulated inline fuse holder with 2A slow-blow fuse between these terminals; no wire bypass.
+U11,MCW03-05D12,1,FIT,RevA:MCW03_SIP8,104265,https://akizukidenshi.com/catalog/g/g104265/,
+C1,100uF/16V,1,FIT,RevA:CP_Radial_D6.3mm_P2.50mm,,,16V minimum; 25V acceptable if diameter 6.3mm / pitch 2.5mm fits.
+C2,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C3,22uF/25V,1,FIT,RevA:CP_Radial_D6.3mm_P2.50mm,,,25V minimum
+C4,22uF/25V,1,FIT,RevA:CP_Radial_D6.3mm_P2.50mm,,,25V minimum
+C5,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C6,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+R1,330R 2W,1,FIT,RevA:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal,,,"Minimum load 36mA, 0.44W at 12V; mount 5mm above board"
+R2,330R 2W,1,FIT,RevA:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal,,,Minimum load 36mA; keep away from voltage reference
+R3,33R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R4,33R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R5,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R6,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R7,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R8,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R9,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP2,GPIO9 TEST,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,
+U4,MCP1501-20E/CHY,1,FIT,RevA:SOT-23-6,115203,https://akizukidenshi.com/catalog/g/g115203/,
+C7,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C8,1uF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+U1,MCP4922-E/P,1,FIT,RevA:DIP-14_W7.62mm,102090,https://akizukidenshi.com/catalog/g/g102090/,
+C9,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C10,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+TP1,DAC_X,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP2,DAC_Y,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+U2,MCP4922-E/P,1,FIT,RevA:DIP-14_W7.62mm,102090,https://akizukidenshi.com/catalog/g/g102090/,
+C11,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C12,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+TP3,DAC_R,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP4,DAC_G,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+U3,MCP4922-E/P,1,FIT,RevA:DIP-14_W7.62mm,102090,https://akizukidenshi.com/catalog/g/g102090/,
+C13,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C14,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+TP5,DAC_B,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP6,DAC_I,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+R10,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP3,DAC RUN TEST,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,"Open = RUN; shunt disables ALL DACs. XY goes to a rail, NOT center."
+U5,NJM4580DD,1,FIT,RevA:DIP-8_W7.62mm,100069,https://akizukidenshi.com/catalog/g/g100069/,
+C15,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C16,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+R11,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R12,47k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R13,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R14,47k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R15,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R16,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R17,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R18,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+U6,NJM4580DD,1,FIT,RevA:DIP-8_W7.62mm,100069,https://akizukidenshi.com/catalog/g/g100069/,
+C17,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C18,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+R19,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R20,47k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R21,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R22,47k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R23,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R24,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R25,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R26,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+U7,NJM4580DD,1,FIT,RevA:DIP-8_W7.62mm,100069,https://akizukidenshi.com/catalog/g/g100069/,
+C19,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C20,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+U8,NJM4580DD,1,FIT,RevA:DIP-8_W7.62mm,100069,https://akizukidenshi.com/catalog/g/g100069/,
+C21,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C22,100nF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+R27,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R28,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+C23,1uF,1,FIT,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+R29,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R30,2.2k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R31,12k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP4,R DIFF GAIN,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN: SE gain2.42. CLOSED: DIFF gain1.22; fit optional inverter and change NEG selector.
+R32,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP5,R NEG SEL,1,FIT,RevA:PinHeader_1x03_P2.54mm_Vertical,,,1-2 SE default; 2-3 DIFF needs gain jumper + optional inverter.
+R33,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R34,2.2k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R35,12k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP6,G DIFF GAIN,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN: SE gain2.42. CLOSED: DIFF gain1.22; fit optional inverter and change NEG selector.
+R36,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP7,G NEG SEL,1,FIT,RevA:PinHeader_1x03_P2.54mm_Vertical,,,1-2 SE default; 2-3 DIFF needs gain jumper + optional inverter.
+R37,10k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R38,2.2k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R39,12k 1%,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP8,B DIFF GAIN,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN: SE gain2.42. CLOSED: DIFF gain1.22; fit optional inverter and change NEG selector.
+R40,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP9,B NEG SEL,1,FIT,RevA:PinHeader_1x03_P2.54mm_Vertical,,,1-2 SE default; 2-3 DIFF needs gain jumper + optional inverter.
+U9,NJM4580DD,1,DNP optional,RevA:DIP-8_W7.62mm,100069,https://akizukidenshi.com/catalog/g/g100069/,
+C24,100nF,1,DNP optional,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C25,100nF,1,DNP optional,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+U10,NJM4580DD,1,DNP optional,RevA:DIP-8_W7.62mm,100069,https://akizukidenshi.com/catalog/g/g100069/,
+C26,100nF,1,DNP optional,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+C27,100nF,1,DNP optional,RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm,,,50V X7R/C0G
+R41,10k 1%,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R42,10k 1%,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R43,100R,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R44,10k 1%,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R45,10k 1%,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R46,100R,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R47,10k 1%,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R48,10k 1%,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R49,100R,1,DNP optional,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+J3,ARM external maintained NO,1,FIT,"RevA:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",,,Wire a maintained key/ARM switch; open is safe. Not fitted with shunt.
+J4,E-STOP loop NC,1,FIT,"RevA:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",,,Wire NC emergency stop; opening cuts relay coil power.
+Q1,IRLML6344TRPBF,1,FIT,RevA:SOT-23,106049,https://akizukidenshi.com/catalog/g/g106049/,RDS(on) specified at VGS=2.5V; coil load 160mA nominal.
+R50,100R,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R51,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+D1,1N4007,1,FIT,RevA:D_DO-41_SOD81_P10.16mm_Horizontal,,,"1=cathode, 2=anode; coil flyback. Release time increases."
+K1,HFD27/005-S,1,FIT,RevA:HFD27,130122,https://akizukidenshi.com/catalog/g/g130122/,
+K2,HFD27/005-S,1,FIT,RevA:HFD27,130122,https://akizukidenshi.com/catalog/g/g130122/,
+K3,HFD27/005-S,1,FIT,RevA:HFD27,130122,https://akizukidenshi.com/catalog/g/g130122/,
+K4,HFD27/005-S,1,FIT,RevA:HFD27,130122,https://akizukidenshi.com/catalog/g/g130122/,
+R52,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R53,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R54,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R55,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R56,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R57,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+R58,10k,1,FIT,RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,
+JP10,DB1 X+,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 1
+JP11,DB2 Y+,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 2
+JP12,DB3 I+,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 3
+JP13,DB4 ILOCK_A,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 4
+JP14,DB5 R+,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 5
+JP15,DB6 G+,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 6
+JP16,DB7 B+,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 7
+JP17,DB12 SHUTTER,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 12
+JP18,DB14 X-,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 14
+JP19,DB15 Y-,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 15
+JP20,DB16 I-,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 16
+JP21,DB17 ILOCK_B,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 17
+JP22,DB18 R-,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 18
+JP23,DB19 G-,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 19
+JP24,DB20 B-,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 20
+JP25,DB25 GND,1,FIT,RevA:PinHeader_1x02_P2.54mm_Vertical,,,OPEN on first power-up. Fit only after measuring waveform; DB25 pin 25
+J5,DMR-25SGG DB25F,1,FIT,RevA:DMR25SGG,100647,https://akizukidenshi.com/catalog/g/g100647/,
+J6,Intensity external driver,1,FIT,RevA:PinHeader_1x04_P2.54mm_Vertical,,,I +/- are external conditioned inputs ONLY. Do not connect raw DAC_I to ILDA. Leave DB3/16 open unless a driver is attached.
+TP7,X+,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP8,X-,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP9,Y+,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP10,Y-,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP11,R+,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP12,R-,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP13,G+,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP14,G-,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP15,B+,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP16,B-,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP17,VREF_2V048,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP18,VCENTER,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP19,+12V,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP20,-12V,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP21,3V3,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP22,5V,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP23,GND,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP24,SHUTTER,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP25,ENABLE_GPIO,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,
+TP26,COIL_5V,1,FIT,RevA:TestPoint_THTPad_D2.0mm_Drill1.0mm,,,

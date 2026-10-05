@@ -1,0 +1,29 @@
+# Generated output
+/build/
+/dist/
+
+# KiCad per-user state, locks and backups
+*.kicad_prl
+*.lck
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+_autosave-*
+~*.lck
+fp-info-cache
+
+# Common local build/dependency directories
+.pio/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example

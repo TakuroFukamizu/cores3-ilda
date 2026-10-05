@@ -1,0 +1,111 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-02T02:43:16",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c",
+            "violations": []
+        },
+        {
+            "path": "/01_Host_and_power_1/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/fbab99e0-6e1a-532c-aea1-cd8288e35b76",
+            "violations": []
+        },
+        {
+            "path": "/01_Host_and_power_2/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/8ddd3bcb-6a47-59ef-b41b-e43e4311cac2",
+            "violations": []
+        },
+        {
+            "path": "/02_DAC_and_reference_1/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/edbd96a9-7d78-5237-8b45-4a278bf0d448",
+            "violations": []
+        },
+        {
+            "path": "/02_DAC_and_reference_2/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/aa41ffe6-b134-573d-86ab-d37cf76ddc03",
+            "violations": []
+        },
+        {
+            "path": "/03_XY_differential_1/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/6e69d4ae-20ec-5dc2-8069-47db7cacff2a",
+            "violations": []
+        },
+        {
+            "path": "/03_XY_differential_2/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/15ab2d66-2835-54db-b537-c6b180469e2e",
+            "violations": []
+        },
+        {
+            "path": "/04_RGB_and_center_1/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f",
+            "violations": []
+        },
+        {
+            "path": "/04_RGB_and_center_2/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/f48a5464-bf29-52a9-8fe9-7b4215602ec5",
+            "violations": []
+        },
+        {
+            "path": "/05_RGB_optional_inverters/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/73915915-63bd-5c77-84ec-41ea0c9c6eaf",
+            "violations": []
+        },
+        {
+            "path": "/06_ARM_and_output_gating_1/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/7e1a1d51-624b-58e8-931e-ce6a937da00e",
+            "violations": []
+        },
+        {
+            "path": "/06_ARM_and_output_gating_2/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/c9f2c1e9-051b-5d7c-9cad-f4f673f0af93",
+            "violations": []
+        },
+        {
+            "path": "/07_DB25_and_disconnects_1/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/db2f26a5-5b89-52c5-b6bf-87598e549d75",
+            "violations": []
+        },
+        {
+            "path": "/07_DB25_and_disconnects_2/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/78c6a72c-c260-5d1a-9b8a-878f41f784ba",
+            "violations": []
+        },
+        {
+            "path": "/08_Test_points_1/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/6eb60ce2-c232-5e92-9d9c-7e5955eab74f",
+            "violations": []
+        },
+        {
+            "path": "/08_Test_points_2/",
+            "uuid_path": "/bf914292-d252-5447-89ee-111204f4217c/3f9a9850-1cc2-5a0b-baac-8c7097379444",
+            "violations": []
+        }
+    ],
+    "source": "CoreS3_ILDA_RevA.kicad_sch"
+}

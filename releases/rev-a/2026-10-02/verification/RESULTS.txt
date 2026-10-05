@@ -1,0 +1,9 @@
+KiCad 10.0.6 verification — 2026-10-02
+ERC: 0
+DRC: 0
+Unconnected: 0
+Schematic parity: 0
+Ideal DC nodal verification: 6 cases passed; see nominal_dc.csv.
+No physical prototype, transient simulation, EMC or safety certification.
+Default ignored checks are explicitly listed in DRC.json; no project-specific exclusions.
+BOM component references: 160; optional DNP: 15.
