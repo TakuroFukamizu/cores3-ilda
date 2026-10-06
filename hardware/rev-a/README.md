@@ -6,7 +6,7 @@
 
 編集対象はこのフォルダの `kicad/` とBOMです。以下の製造データ・プレビュー・検証結果はリポジトリルートの `releases/rev-a/2026-10-02/` に保存した初回設計時点の記録です。設計変更後は再生成し、古い検査結果を流用しないでください。
 
-- `kicad/CoreS3_ILDA_RevA.kicad_pro` をKiCad 10で開く。回路図はルート＋15子シート。ローカルシンボル・フットプリントを同梱。
+- `kicad/CoreS3_ILDA_RevA.kicad_pro` をKiCad 10で開く。回路図はルート＋13子シート。ローカルシンボル・フットプリントを同梱。
 - `manufacturing/`：表裏銅箔、表裏マスク、表裏シルク、外形Gerber、PTH/NPTH Excellonドリル、ドリル図。
 - `BOM.csv`：部品別明細。`BOM_grouped.csv`：同一部品の集計。DNPは標準構成では未実装。
 - `assembly-top.svg`：部品配置・機械形状。`board-top.png`：配線プレビュー。`schematic_svg/`：全回路図プレビュー。
@@ -153,3 +153,8 @@ J3に維持型NO接点のARMスイッチ（できればキー式）、J4にNC接
 - [HFD27リレー](https://akizukidenshi.com/goodsaffix/HFD27.pdf)
 - [IRLML6344](https://akizukidenshi.com/goodsaffix/irlml6344pbf.pdf)
 - [ILDA ISP-99 rev002](https://www.ilda.com/resources/StandardsDocs/ILDA_ISP99_rev002.pdf)
+
+
+### 2026-10-06 回路図の表示改訂
+
+部品ごとのラベル接続を、機能別に配置した実線主体の回路図へ変更しました。電源、ホスト、基準・中点、DAC、X、Y、R、G、B、ARM、リレー、DB25、オペアンプ電源の13シート＋目次です。テストポイントは各回路へ移動しました。ファイル名は既存参照との連続性のため一部旧名称を維持しています。全160部品・135ネットの接続およびPCBの物理配線は変更していません。PCBは回路図への参照パスだけを同期しています。初回releases配下の回路図プレビューは改訂前の記録です。

@@ -1,1 +1,603 @@
-(kicad_sch(version 20250114)(generator "eeschema")(uuid "bf914292-d252-5447-89ee-111204f4217c")(paper "A3")(title_block(title "CoreS3 ILDA Rev.A - design index")(date "2026-10-02")(rev "A")(company "CoreS3 ILDA evaluation"))(lib_symbols )(text "BENCH EVALUATION ONLY - initialize DACs with RGB=0, XY=2048 before ARM"(at 20 22 0)(effects(font(size 1.7 1.7))(justify left))(uuid "3956c45a-dbe2-5b34-91f5-2e48f7fa177a") )(text "Solid common GND. AGND test point uses GND. DC/DC isolation is intentionally bridged at COM."(at 20 29 0)(effects(font(size 1.27 1.27))(justify left))(uuid "2b6c6ca0-caba-580d-ad73-fb18bc0ce4da") )(text "Base population: MCP4922 x3, NJM4580 x4. RGB balanced-drive option adds U9/U10 (DNP)."(at 20 35 0)(effects(font(size 1.27 1.27))(justify left))(uuid "d2d87f8b-c3a9-559d-a7fb-30e1731d0443") )(text "No scan-fail or watchdog protection. See README before connecting any projector."(at 20 41 0)(effects(font(size 1.27 1.27))(justify left))(uuid "f4d64c89-6455-5e17-9654-8ed040abc3fc") )(sheet(at 25 55)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "fbab99e0-6e1a-532c-aea1-cd8288e35b76")(property "Sheetname" "01_Host_and_power_1"(at 25 53 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "01_Host_and_power_1.kicad_sch"(at 25 83 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "2")))))(sheet(at 153 55)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "8ddd3bcb-6a47-59ef-b41b-e43e4311cac2")(property "Sheetname" "01_Host_and_power_2"(at 153 53 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "01_Host_and_power_2.kicad_sch"(at 153 83 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "3")))))(sheet(at 281 55)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "edbd96a9-7d78-5237-8b45-4a278bf0d448")(property "Sheetname" "02_DAC_and_reference_1"(at 281 53 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "02_DAC_and_reference_1.kicad_sch"(at 281 83 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "4")))))(sheet(at 25 93)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "aa41ffe6-b134-573d-86ab-d37cf76ddc03")(property "Sheetname" "02_DAC_and_reference_2"(at 25 91 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "02_DAC_and_reference_2.kicad_sch"(at 25 121 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "5")))))(sheet(at 153 93)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "6e69d4ae-20ec-5dc2-8069-47db7cacff2a")(property "Sheetname" "03_XY_differential_1"(at 153 91 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "03_XY_differential_1.kicad_sch"(at 153 121 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "6")))))(sheet(at 281 93)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "15ab2d66-2835-54db-b537-c6b180469e2e")(property "Sheetname" "03_XY_differential_2"(at 281 91 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "03_XY_differential_2.kicad_sch"(at 281 121 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "7")))))(sheet(at 25 131)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "f292ef6e-adb3-5211-a4f6-65c4f42e103f")(property "Sheetname" "04_RGB_and_center_1"(at 25 129 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "04_RGB_and_center_1.kicad_sch"(at 25 159 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "8")))))(sheet(at 153 131)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "f48a5464-bf29-52a9-8fe9-7b4215602ec5")(property "Sheetname" "04_RGB_and_center_2"(at 153 129 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "04_RGB_and_center_2.kicad_sch"(at 153 159 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "9")))))(sheet(at 281 131)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "73915915-63bd-5c77-84ec-41ea0c9c6eaf")(property "Sheetname" "05_RGB_optional_inverters"(at 281 129 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "05_RGB_optional_inverters.kicad_sch"(at 281 159 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "10")))))(sheet(at 25 169)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "7e1a1d51-624b-58e8-931e-ce6a937da00e")(property "Sheetname" "06_ARM_and_output_gating_1"(at 25 167 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "06_ARM_and_output_gating_1.kicad_sch"(at 25 197 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "11")))))(sheet(at 153 169)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "c9f2c1e9-051b-5d7c-9cad-f4f673f0af93")(property "Sheetname" "06_ARM_and_output_gating_2"(at 153 167 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "06_ARM_and_output_gating_2.kicad_sch"(at 153 197 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "12")))))(sheet(at 281 169)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "db2f26a5-5b89-52c5-b6bf-87598e549d75")(property "Sheetname" "07_DB25_and_disconnects_1"(at 281 167 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "07_DB25_and_disconnects_1.kicad_sch"(at 281 197 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "13")))))(sheet(at 25 207)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "78c6a72c-c260-5d1a-9b8a-878f41f784ba")(property "Sheetname" "07_DB25_and_disconnects_2"(at 25 205 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "07_DB25_and_disconnects_2.kicad_sch"(at 25 235 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "14")))))(sheet(at 153 207)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "6eb60ce2-c232-5e92-9d9c-7e5955eab74f")(property "Sheetname" "08_Test_points_1"(at 153 205 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "08_Test_points_1.kicad_sch"(at 153 235 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "15")))))(sheet(at 281 207)(size 113 26)(stroke(width 0.2)(type default))(fill(color 0 0 0 0))(uuid "3f9a9850-1cc2-5a0b-baac-8c7097379444")(property "Sheetname" "08_Test_points_2"(at 281 205 0)(effects(font(size 1.27 1.27))(justify left)))(property "Sheetfile" "08_Test_points_2.kicad_sch"(at 281 235 0)(effects(font(size 1.0 1.0))(justify left)))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c"(page "16"))))))
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bf914292-d252-5447-89ee-111204f4217c")
+	(paper "A3")
+	(title_block
+		(title "CoreS3 ILDA Rev.A - functional schematics")
+		(date "2026-10-06")
+		(rev "A")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 38.1)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0ca287b4-6996-58f7-b90f-ba60715dd420")
+		(property "Sheetname" "01 / 5V input and +/-12V supply"
+			(at 25.4 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "01_Host_and_power_1.kicad_sch"
+			(at 25.4 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 182.88)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "48159ffd-9f64-5952-86b2-d90e1a2b582f")
+		(property "Sheetname" "12 / DB25 output and disconnect jumpers"
+			(at 279.4 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "07_DB25_and_disconnects_1.kicad_sch"
+			(at 279.4 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 134.62)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5a529333-e8ce-5243-bde7-774cd7465b19")
+		(property "Sheetname" "B / Color driver and optional differential stage"
+			(at 279.4 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "05_RGB_optional_inverters.kicad_sch"
+			(at 279.4 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 231.14)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "66335526-a980-5da3-a7cc-7c6500bb5b36")
+		(property "Sheetname" "13 / Op-amp power and unused section"
+			(at 25.4 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "07_DB25_and_disconnects_2.kicad_sch"
+			(at 25.4 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 38.1)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8074d551-a86d-5f60-8f4f-72c99e319784")
+		(property "Sheetname" "03 / Precision reference and XY center"
+			(at 279.4 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "02_DAC_and_reference_1.kicad_sch"
+			(at 279.4 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 134.62)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8b1f8cae-8057-5965-b15d-56bed35d5234")
+		(property "Sheetname" "R / Color driver and optional differential stage"
+			(at 25.4 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "04_RGB_and_center_1.kicad_sch"
+			(at 25.4 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 182.88)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "905ef0c0-5af5-5f93-96c2-ae47fcaebeb0")
+		(property "Sheetname" "11 / Fail-off relay contacts"
+			(at 152.4 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "06_ARM_and_output_gating_2.kicad_sch"
+			(at 152.4 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 134.62)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b388bd79-8bd0-5b1b-801a-554a58e257b5")
+		(property "Sheetname" "G / Color driver and optional differential stage"
+			(at 152.4 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "04_RGB_and_center_2.kicad_sch"
+			(at 152.4 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 182.88)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b98ad578-98a5-5108-a7a9-3e10a116504f")
+		(property "Sheetname" "10 / Manual ARM and relay driver"
+			(at 25.4 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "06_ARM_and_output_gating_1.kicad_sch"
+			(at 25.4 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 86.36)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "beca32b3-a3a7-5279-aef5-ee19c4e7655f")
+		(property "Sheetname" "04 / Six-channel DAC bank"
+			(at 25.4 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "02_DAC_and_reference_2.kicad_sch"
+			(at 25.4 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 38.1)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e03566cc-47f5-528f-a436-372ab0fc820a")
+		(property "Sheetname" "02 / CoreS3 bus and digital control"
+			(at 152.4 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "01_Host_and_power_2.kicad_sch"
+			(at 152.4 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 86.36)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e61bc76f-7461-50ac-b7a0-6b10b853c80e")
+		(property "Sheetname" "Y / Differential position driver"
+			(at 279.4 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "03_XY_differential_2.kicad_sch"
+			(at 279.4 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 86.36)
+		(size 116.84 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ff06611f-0d24-5240-a759-d445f7bcaa1f")
+		(property "Sheetname" "X / Differential position driver"
+			(at 152.4 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "03_XY_differential_1.kicad_sch"
+			(at 152.4 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoreS3_ILDA_RevA"
+				(path "/bf914292-d252-5447-89ee-111204f4217c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

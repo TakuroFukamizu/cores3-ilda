@@ -1,1 +1,1745 @@
-(kicad_sch(version 20250114)(generator "eeschema")(uuid "f292ef6e-adb3-5211-a4f6-65c4f42e103f")(paper "A3")(title_block(title "04_RGB_and_center_1")(date "2026-10-02")(rev "A")(company "CoreS3 ILDA evaluation"))(lib_symbols (symbol "RevA:Opamp" (pin_names(offset 0.5)) (in_bom yes)(on_board yes)(property "Reference" "U"(at 0 0 0)(effects(font(size 1 1))))(property "Value" "Opamp"(at 0 0 0)(effects(font(size 1 1))))(symbol "Opamp_1_1" (rectangle(start -10.16 6.35)(end 10.16 -6.35)(stroke(width 0.254)(type default))(fill(type background)))(pin output line(at -15.24 3.81 0)(length 5.08)(name "OUT_A"(effects(font(size 1.0 1.0))))(number "1"(effects(font(size 1 1)))))(pin input line(at -15.24 1.27 0)(length 5.08)(name "IN-_A"(effects(font(size 1.0 1.0))))(number "2"(effects(font(size 1 1)))))(pin input line(at -15.24 -1.27 0)(length 5.08)(name "IN+_A"(effects(font(size 1.0 1.0))))(number "3"(effects(font(size 1 1)))))(pin power_in line(at -15.24 -3.81 0)(length 5.08)(name "V-"(effects(font(size 1.0 1.0))))(number "4"(effects(font(size 1 1)))))(pin input line(at 15.24 3.81 180)(length 5.08)(name "IN+_B"(effects(font(size 1.0 1.0))))(number "5"(effects(font(size 1 1)))))(pin input line(at 15.24 1.27 180)(length 5.08)(name "IN-_B"(effects(font(size 1.0 1.0))))(number "6"(effects(font(size 1 1)))))(pin output line(at 15.24 -1.27 180)(length 5.08)(name "OUT_B"(effects(font(size 1.0 1.0))))(number "7"(effects(font(size 1 1)))))(pin power_in line(at 15.24 -3.81 180)(length 5.08)(name "V+"(effects(font(size 1.0 1.0))))(number "8"(effects(font(size 1 1)))))))(symbol "RevA:C" (pin_names(offset 0.5)) (in_bom yes)(on_board yes)(property "Reference" "U"(at 0 0 0)(effects(font(size 1 1))))(property "Value" "C"(at 0 0 0)(effects(font(size 1 1))))(symbol "C_1_1" (polyline(pts(xy -0.762 -2.032)(xy -0.762 2.032))(stroke(width 0.254)(type default))(fill(type none)))(polyline(pts(xy 0.762 -2.032)(xy 0.762 2.032))(stroke(width 0.254)(type default))(fill(type none)))(pin passive line(at -5.08 0 0)(length 4.318)(name "~"(effects(font(size 1 1))))(number "1"(effects(font(size 1 1)))))(pin passive line(at 5.08 0 180)(length 4.318)(name "~"(effects(font(size 1 1))))(number "2"(effects(font(size 1 1)))))))(symbol "RevA:R" (pin_names(offset 0.5)) (in_bom yes)(on_board yes)(property "Reference" "U"(at 0 0 0)(effects(font(size 1 1))))(property "Value" "R"(at 0 0 0)(effects(font(size 1 1))))(symbol "R_1_1" (rectangle (start -2.54 1.016)(end 2.54 -1.016)(stroke(width 0.254)(type default))(fill(type none)))(pin passive line(at -5.08 0 0)(length 2.54)(name "~"(effects(font(size 1 1))))(number "1"(effects(font(size 1 1)))))(pin passive line(at 5.08 0 180)(length 2.54)(name "~"(effects(font(size 1 1))))(number "2"(effects(font(size 1 1)))))))(symbol "RevA:Conn_JP4" (pin_names(offset 0.5)) (in_bom yes)(on_board yes)(property "Reference" "U"(at 0 0 0)(effects(font(size 1 1))))(property "Value" "Conn_JP4"(at 0 0 0)(effects(font(size 1 1))))(symbol "Conn_JP4_1_1" (rectangle(start -10.16 5.08)(end 10.16 -5.08)(stroke(width 0.254)(type default))(fill(type background)))(pin passive line(at -15.24 0.0 0)(length 5.08)(name "1"(effects(font(size 1.0 1.0))))(number "1"(effects(font(size 1 1)))))(pin passive line(at 15.24 0.0 180)(length 5.08)(name "2"(effects(font(size 1.0 1.0))))(number "2"(effects(font(size 1 1)))))))(symbol "RevA:Conn_JP5" (pin_names(offset 0.5)) (in_bom yes)(on_board yes)(property "Reference" "U"(at 0 0 0)(effects(font(size 1 1))))(property "Value" "Conn_JP5"(at 0 0 0)(effects(font(size 1 1))))(symbol "Conn_JP5_1_1" (rectangle(start -10.16 5.08)(end 10.16 -5.08)(stroke(width 0.254)(type default))(fill(type background)))(pin passive line(at -15.24 1.27 0)(length 5.08)(name "1"(effects(font(size 1.0 1.0))))(number "1"(effects(font(size 1 1)))))(pin passive line(at -15.24 -1.27 0)(length 5.08)(name "2"(effects(font(size 1.0 1.0))))(number "2"(effects(font(size 1 1)))))(pin passive line(at 15.24 1.27 180)(length 5.08)(name "3"(effects(font(size 1.0 1.0))))(number "3"(effects(font(size 1 1))))))))(text "04 RGB and center 1"(at 20 18 0)(effects(font(size 2 2))(justify left))(uuid "ace835c1-5d42-57df-b1de-f107f4c17158") )(text "Net labels join identically named pins across all sheets. Pin numbers are physical package pins."(at 20 25 0)(effects(font(size 1.27 1.27))(justify left))(uuid "66cd485b-0a5f-58c1-ba9f-63294708fb06") )(symbol(lib_id "RevA:Opamp")(at 63.5 63.5 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "cfffd8b9-e7b3-57f8-a971-5a1954684685")(property "Reference" "U7"(at 63.5 54.61 0)(effects(font(size 1.27 1.27))))(property "Value" "NJM4580DD"(at 63.5 72.39 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:DIP-8_W7.62mm"(at 63.5 63.5 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "eb0eb66f-3edf-56c5-9c55-b2288e6dfba1"))(pin "2"(uuid "fc1c0844-657c-5501-b1c0-4a6c5476ad12"))(pin "3"(uuid "b94ccbaf-c0bb-5f27-b9ad-f627b8805d18"))(pin "4"(uuid "49aac5e1-cc1d-5315-8029-b5404ec7969c"))(pin "5"(uuid "d271927e-1834-51da-9bf6-60d6c2619cfa"))(pin "6"(uuid "6b9623f3-d353-56df-847b-86999cadb139"))(pin "7"(uuid "bc358a60-2e17-56e1-b9ef-fca7d68f1cf4"))(pin "8"(uuid "f49f3bc5-7f51-5ca4-be35-d59d0ae2339c"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "U7")(unit 1)))))(wire(pts(xy 48.26 59.69)(xy 43.18 59.69))(stroke(width 0)(type default))(uuid "5b8d0f76-8281-5633-93f0-bb609ccba3cf"))(global_label "R_P"(shape passive)(at 43.18 59.69 0)(effects(font(size 0.9 0.9))(justify right))(uuid "fe0908de-63dd-5c9d-9a5a-d05768a66cff")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 43.18 59.69 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 48.26 62.23)(xy 43.18 62.23))(stroke(width 0)(type default))(uuid "d9f5e804-45bf-554d-adb4-8c9cd410fd84"))(global_label "R_FB"(shape passive)(at 43.18 62.23 0)(effects(font(size 0.9 0.9))(justify right))(uuid "0c65c6cd-b140-59f9-9282-f2cd7973a828")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 43.18 62.23 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 48.26 64.77)(xy 43.18 64.77))(stroke(width 0)(type default))(uuid "4822c400-65ec-52ea-a7ed-080f44eb3c6a"))(global_label "DAC_R"(shape passive)(at 43.18 64.77 0)(effects(font(size 0.9 0.9))(justify right))(uuid "f3f7f54c-188f-50ba-a660-c36daeb11040")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 43.18 64.77 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 48.26 67.31)(xy 43.18 67.31))(stroke(width 0)(type default))(uuid "900fd7b0-3e9b-5cad-b955-6f6f00375693"))(global_label "-12V"(shape passive)(at 43.18 67.31 0)(effects(font(size 0.9 0.9))(justify right))(uuid "e8d55970-6e1f-5811-a583-fcef93e61e73")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 43.18 67.31 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 78.74 59.69)(xy 83.82 59.69))(stroke(width 0)(type default))(uuid "70a1e0ab-7e94-5754-b04e-b2d815e97533"))(global_label "DAC_G"(shape passive)(at 83.82 59.69 180)(effects(font(size 0.9 0.9))(justify left))(uuid "699a01fc-6744-5ab9-bce5-936e458c3a5c")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 83.82 59.69 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 78.74 62.23)(xy 83.82 62.23))(stroke(width 0)(type default))(uuid "f8a0542d-5c9f-56dd-889c-bb0df319826e"))(global_label "G_FB"(shape passive)(at 83.82 62.23 180)(effects(font(size 0.9 0.9))(justify left))(uuid "5493cffc-2247-585a-8a66-5dd26316988b")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 83.82 62.23 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 78.74 64.77)(xy 83.82 64.77))(stroke(width 0)(type default))(uuid "7423fb2f-fc32-566c-825a-43061e73e00a"))(global_label "G_P"(shape passive)(at 83.82 64.77 180)(effects(font(size 0.9 0.9))(justify left))(uuid "8697cd81-c6bb-5343-9ce8-4b1b821f31f9")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 83.82 64.77 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 78.74 67.31)(xy 83.82 67.31))(stroke(width 0)(type default))(uuid "8b006f1b-91f1-59b4-844c-e8ad75af3f03"))(global_label "+12V"(shape passive)(at 83.82 67.31 180)(effects(font(size 0.9 0.9))(justify left))(uuid "7aea6dc7-bfc8-545d-80b4-64680e75ee6e")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 83.82 67.31 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:C")(at 162.56 63.5 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "7b44be3a-685f-59be-8ea5-d250b6c39bb0")(property "Reference" "C19"(at 162.56 58.42 0)(effects(font(size 1.27 1.27))))(property "Value" "100nF"(at 162.56 68.58 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm"(at 162.56 63.5 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "1f0ae868-b0ad-563a-a52c-eb4c731f1725"))(pin "2"(uuid "f192a318-700f-523b-866e-1378fc5faeea"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "C19")(unit 1)))))(wire(pts(xy 157.48 63.5)(xy 152.39999999999998 63.5))(stroke(width 0)(type default))(uuid "3962dcab-2670-5b07-811c-ceb76e55004f"))(global_label "+12V"(shape passive)(at 152.39999999999998 63.5 0)(effects(font(size 0.9 0.9))(justify right))(uuid "b207901e-cd0a-5f49-bd30-da92dc097e0d")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 152.39999999999998 63.5 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 167.64000000000001 63.5)(xy 172.72000000000003 63.5))(stroke(width 0)(type default))(uuid "76374950-000a-5e0e-a622-e11186ef6832"))(global_label "GND"(shape passive)(at 172.72000000000003 63.5 180)(effects(font(size 0.9 0.9))(justify left))(uuid "1e398756-4aec-55a8-bed5-bc7b973b071c")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 172.72000000000003 63.5 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:C")(at 261.62 63.5 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "ee6e7622-135c-55fe-8eeb-3949ae2ad1ec")(property "Reference" "C20"(at 261.62 58.42 0)(effects(font(size 1.27 1.27))))(property "Value" "100nF"(at 261.62 68.58 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm"(at 261.62 63.5 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "fba90aa8-5ab7-5a18-b6dc-34b915209375"))(pin "2"(uuid "f4fcd96c-8a62-51c2-986c-72bba6cb736e"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "C20")(unit 1)))))(wire(pts(xy 256.54 63.5)(xy 251.46 63.5))(stroke(width 0)(type default))(uuid "2eea77bb-2c81-55aa-98fd-e158fb9458ce"))(global_label "-12V"(shape passive)(at 251.46 63.5 0)(effects(font(size 0.9 0.9))(justify right))(uuid "e0b8496a-36ab-5c2d-bd38-71efa776e8c0")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 251.46 63.5 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 266.7 63.5)(xy 271.78 63.5))(stroke(width 0)(type default))(uuid "3e6f6084-4065-54ae-93e4-cc3da7de9986"))(global_label "GND"(shape passive)(at 271.78 63.5 180)(effects(font(size 0.9 0.9))(justify left))(uuid "90540511-2452-573c-ac98-fdbaddd7dc22")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 271.78 63.5 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:Opamp")(at 360.68 63.5 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "30053cfd-8881-574b-a145-3450d4812f0b")(property "Reference" "U8"(at 360.68 54.61 0)(effects(font(size 1.27 1.27))))(property "Value" "NJM4580DD"(at 360.68 72.39 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:DIP-8_W7.62mm"(at 360.68 63.5 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "edf32423-210d-545f-a497-f7f0be8436b8"))(pin "2"(uuid "645e3d36-4a7e-5bec-a374-fd56d18e9616"))(pin "3"(uuid "64cf8aa6-81d9-5bc6-a050-97c2d2c6478f"))(pin "4"(uuid "8b5ed1fc-11be-5176-a8a8-ded180c4c768"))(pin "5"(uuid "6e3f5429-1b9f-57e0-be18-dfbfef254804"))(pin "6"(uuid "19dc750f-ad64-5100-a714-0e595ad224bc"))(pin "7"(uuid "2b47bf46-698c-5563-a610-03656edfd2f0"))(pin "8"(uuid "dee2fd48-e484-5f37-97c1-9bc97fa78958"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "U8")(unit 1)))))(wire(pts(xy 345.44 59.69)(xy 340.36 59.69))(stroke(width 0)(type default))(uuid "5ccef6ee-21bf-5734-bef7-ce01bb739d1a"))(global_label "B_P"(shape passive)(at 340.36 59.69 0)(effects(font(size 0.9 0.9))(justify right))(uuid "b8349b12-b4cf-54ac-b3f9-034667f299f5")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 340.36 59.69 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 345.44 62.23)(xy 340.36 62.23))(stroke(width 0)(type default))(uuid "d6d89d57-a522-5cc3-8295-a56a58ad9cd7"))(global_label "B_FB"(shape passive)(at 340.36 62.23 0)(effects(font(size 0.9 0.9))(justify right))(uuid "e3992d6e-f222-5bbb-aed4-9e61061ac461")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 340.36 62.23 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 345.44 64.77)(xy 340.36 64.77))(stroke(width 0)(type default))(uuid "4ef8dd8b-b3a4-547c-8ebc-bf6dab9f417b"))(global_label "DAC_B"(shape passive)(at 340.36 64.77 0)(effects(font(size 0.9 0.9))(justify right))(uuid "7bc9ea67-002a-53cf-bcfd-720abcc9efb3")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 340.36 64.77 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 345.44 67.31)(xy 340.36 67.31))(stroke(width 0)(type default))(uuid "574185c3-4d0f-5a56-8aff-c87f5ced7e35"))(global_label "-12V"(shape passive)(at 340.36 67.31 0)(effects(font(size 0.9 0.9))(justify right))(uuid "0a701982-774d-5eaf-96bf-4b44fd0750a3")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 340.36 67.31 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 375.92 59.69)(xy 381.0 59.69))(stroke(width 0)(type default))(uuid "1e1caa03-389d-5d54-9716-545e8b620e7f"))(global_label "CENTER_DIV"(shape passive)(at 381.0 59.69 180)(effects(font(size 0.9 0.9))(justify left))(uuid "92b28fe1-381b-57e2-ad44-59f9fc25d9a3")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 381.0 59.69 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 375.92 62.23)(xy 381.0 62.23))(stroke(width 0)(type default))(uuid "40b0e5a2-fe04-5190-9adc-7159fb648dcb"))(global_label "VCENTER"(shape passive)(at 381.0 62.23 180)(effects(font(size 0.9 0.9))(justify left))(uuid "1b245303-26e0-57b4-afd6-f89a3c068625")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 381.0 62.23 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 375.92 64.77)(xy 381.0 64.77))(stroke(width 0)(type default))(uuid "72e97c79-42e4-5881-bb49-f2b334f04127"))(global_label "VCENTER"(shape passive)(at 381.0 64.77 180)(effects(font(size 0.9 0.9))(justify left))(uuid "4d3eb690-890f-5ac6-a63a-d38e68fb3f64")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 381.0 64.77 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 375.92 67.31)(xy 381.0 67.31))(stroke(width 0)(type default))(uuid "49c9e3a3-7706-5ed9-92c7-0701e3e05c4d"))(global_label "+12V"(shape passive)(at 381.0 67.31 180)(effects(font(size 0.9 0.9))(justify left))(uuid "30aae904-6581-5c98-8c1d-980ed1c42155")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 381.0 67.31 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:C")(at 63.5 119.38 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "ac835093-d277-5270-88bb-68ac7b7ef8f1")(property "Reference" "C21"(at 63.5 114.3 0)(effects(font(size 1.27 1.27))))(property "Value" "100nF"(at 63.5 124.46 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm"(at 63.5 119.38 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "7f846212-2ae2-5d78-8ef1-91b6c75981ca"))(pin "2"(uuid "e57b5a21-f709-50e4-8b09-bdaf077f23c3"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "C21")(unit 1)))))(wire(pts(xy 58.42 119.38)(xy 53.34 119.38))(stroke(width 0)(type default))(uuid "c0a9f0a5-9eb7-5765-bd4d-f3735ee04b93"))(global_label "+12V"(shape passive)(at 53.34 119.38 0)(effects(font(size 0.9 0.9))(justify right))(uuid "5fab1b9f-e3dd-5358-8d4c-04d2a5e1dfcd")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 53.34 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 68.58 119.38)(xy 73.66 119.38))(stroke(width 0)(type default))(uuid "e8a36d41-d7aa-5419-9771-9baf3cdbbadb"))(global_label "GND"(shape passive)(at 73.66 119.38 180)(effects(font(size 0.9 0.9))(justify left))(uuid "93a7bd5d-1eb1-5ea9-a4ef-08306b4b9fc0")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 73.66 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:C")(at 162.56 119.38 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "6cb83596-de23-5f7e-a945-ccb93e1d0dea")(property "Reference" "C22"(at 162.56 114.3 0)(effects(font(size 1.27 1.27))))(property "Value" "100nF"(at 162.56 124.46 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm"(at 162.56 119.38 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "b3ed3739-8e08-5ccc-8d09-69a8feadbfac"))(pin "2"(uuid "74614b5e-3fd7-55b0-b198-dffdf47ffe28"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "C22")(unit 1)))))(wire(pts(xy 157.48 119.38)(xy 152.39999999999998 119.38))(stroke(width 0)(type default))(uuid "88c349d1-97fc-5822-aaac-4b0b09fde699"))(global_label "-12V"(shape passive)(at 152.39999999999998 119.38 0)(effects(font(size 0.9 0.9))(justify right))(uuid "18365c95-7b9b-565a-8864-69a09a17f409")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 152.39999999999998 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 167.64000000000001 119.38)(xy 172.72000000000003 119.38))(stroke(width 0)(type default))(uuid "553fc4d8-91ff-58b5-a481-0dd3aa791c58"))(global_label "GND"(shape passive)(at 172.72000000000003 119.38 180)(effects(font(size 0.9 0.9))(justify left))(uuid "bc033c89-fea5-55e1-b91e-b02a14f048d8")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 172.72000000000003 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:R")(at 261.62 119.38 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "c32cafa7-9e9e-516f-92b3-fe98fe27d0be")(property "Reference" "R27"(at 261.62 114.3 0)(effects(font(size 1.27 1.27))))(property "Value" "10k 1%"(at 261.62 124.46 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"(at 261.62 119.38 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "8e05fba0-e42c-5e53-9bf7-c7335009d9b8"))(pin "2"(uuid "43223280-4097-564e-abcd-b4092539fd23"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "R27")(unit 1)))))(wire(pts(xy 256.54 119.38)(xy 251.46 119.38))(stroke(width 0)(type default))(uuid "7853dcf4-ff8a-5e3e-85af-7f3e99174e83"))(global_label "VREF_2V048"(shape passive)(at 251.46 119.38 0)(effects(font(size 0.9 0.9))(justify right))(uuid "97cfc297-1362-52c3-aede-d4e924902042")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 251.46 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 266.7 119.38)(xy 271.78 119.38))(stroke(width 0)(type default))(uuid "688d3452-2f13-58fc-a3b6-b244357eb3ae"))(global_label "CENTER_DIV"(shape passive)(at 271.78 119.38 180)(effects(font(size 0.9 0.9))(justify left))(uuid "f1635d4d-dd17-5880-adfe-f08fd5b89829")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 271.78 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:R")(at 360.68 119.38 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "bf4620ff-55c4-5db3-904c-cde80515ec9d")(property "Reference" "R28"(at 360.68 114.3 0)(effects(font(size 1.27 1.27))))(property "Value" "10k 1%"(at 360.68 124.46 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"(at 360.68 119.38 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "7503c994-17b0-528a-8e1c-d165ca850367"))(pin "2"(uuid "113068eb-406a-5747-8de9-95ea00e64910"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "R28")(unit 1)))))(wire(pts(xy 355.6 119.38)(xy 350.52000000000004 119.38))(stroke(width 0)(type default))(uuid "fb91ee39-4374-5166-a9a9-fcda1221194f"))(global_label "CENTER_DIV"(shape passive)(at 350.52000000000004 119.38 0)(effects(font(size 0.9 0.9))(justify right))(uuid "f9661aeb-b18c-58c9-bb2a-f530e9556502")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 350.52000000000004 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 365.76 119.38)(xy 370.84 119.38))(stroke(width 0)(type default))(uuid "cc33fb2b-2357-5391-b386-052f13010827"))(global_label "GND"(shape passive)(at 370.84 119.38 180)(effects(font(size 0.9 0.9))(justify left))(uuid "5afb3cf5-ed39-5bd4-8cc7-c044f83505b4")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 370.84 119.38 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:C")(at 63.5 175.26 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "cfd7db61-bc9c-5131-af2d-24af1080cad8")(property "Reference" "C23"(at 63.5 170.17999999999998 0)(effects(font(size 1.27 1.27))))(property "Value" "1uF"(at 63.5 180.34 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:C_Disc_D5.0mm_W2.5mm_P5.00mm"(at 63.5 175.26 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "45881ea2-17ad-5ab3-86f9-d20f40e07008"))(pin "2"(uuid "5a5c1e53-1798-5ac2-bfa9-d89baeed9095"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "C23")(unit 1)))))(wire(pts(xy 58.42 175.26)(xy 53.34 175.26))(stroke(width 0)(type default))(uuid "9594f8a4-ba4c-5496-922b-83a1b799b846"))(global_label "CENTER_DIV"(shape passive)(at 53.34 175.26 0)(effects(font(size 0.9 0.9))(justify right))(uuid "a4569e1d-dfa7-5ac8-8093-861a39929767")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 53.34 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 68.58 175.26)(xy 73.66 175.26))(stroke(width 0)(type default))(uuid "5d94ff58-908a-5f0d-91b3-8eb9809b3db0"))(global_label "GND"(shape passive)(at 73.66 175.26 180)(effects(font(size 0.9 0.9))(justify left))(uuid "e5491b88-d670-5b71-967d-547c2a648132")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 73.66 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:R")(at 162.56 175.26 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "5c68912f-59a9-565e-b8a9-33da70af136d")(property "Reference" "R29"(at 162.56 170.17999999999998 0)(effects(font(size 1.27 1.27))))(property "Value" "10k 1%"(at 162.56 180.34 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"(at 162.56 175.26 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "00c17c4b-89f8-5e5b-b76a-c025a7ab28fb"))(pin "2"(uuid "9d3b1b21-7238-538f-85d8-54a9e5d0c446"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "R29")(unit 1)))))(wire(pts(xy 157.48 175.26)(xy 152.39999999999998 175.26))(stroke(width 0)(type default))(uuid "abb43a31-92e7-5a2e-987e-f1a2bf6f269f"))(global_label "R_FB"(shape passive)(at 152.39999999999998 175.26 0)(effects(font(size 0.9 0.9))(justify right))(uuid "323139c2-8536-57d5-afe4-de8a51cd63df")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 152.39999999999998 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 167.64000000000001 175.26)(xy 172.72000000000003 175.26))(stroke(width 0)(type default))(uuid "e79f3d22-f802-5a5b-bab5-6bf636ea22dd"))(global_label "GND"(shape passive)(at 172.72000000000003 175.26 180)(effects(font(size 0.9 0.9))(justify left))(uuid "933d051c-acc4-5572-bcfc-ba7e03f1012c")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 172.72000000000003 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:R")(at 261.62 175.26 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "cbc53f61-f449-54c4-8b24-5bf2d1bd95a0")(property "Reference" "R30"(at 261.62 170.17999999999998 0)(effects(font(size 1.27 1.27))))(property "Value" "2.2k 1%"(at 261.62 180.34 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"(at 261.62 175.26 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "03f5df57-a705-53ba-8b17-2d8ccaed8dfa"))(pin "2"(uuid "9f951ebc-41f0-5a54-96b5-58be6c542726"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "R30")(unit 1)))))(wire(pts(xy 256.54 175.26)(xy 251.46 175.26))(stroke(width 0)(type default))(uuid "a067cd3c-16d8-5df0-ae0d-57557230b727"))(global_label "R_P"(shape passive)(at 251.46 175.26 0)(effects(font(size 0.9 0.9))(justify right))(uuid "e11edade-c8b0-5db5-96c8-9e2a68057d91")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 251.46 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 266.7 175.26)(xy 271.78 175.26))(stroke(width 0)(type default))(uuid "0ba107e3-05b8-54a1-a5df-421bdfc8339c"))(global_label "R_GAIN"(shape passive)(at 271.78 175.26 180)(effects(font(size 0.9 0.9))(justify left))(uuid "a7e730d4-3536-5fa4-8d84-e683c913e042")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 271.78 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:R")(at 360.68 175.26 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "e8c65ba2-8c8a-5d84-95ae-015cc22f5d68")(property "Reference" "R31"(at 360.68 170.17999999999998 0)(effects(font(size 1.27 1.27))))(property "Value" "12k 1%"(at 360.68 180.34 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"(at 360.68 175.26 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "fa34845c-ca9e-5444-8e76-16ef0785bac3"))(pin "2"(uuid "51fc0b55-68e1-5e21-a74b-6b74f9c88a63"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "R31")(unit 1)))))(wire(pts(xy 355.6 175.26)(xy 350.52000000000004 175.26))(stroke(width 0)(type default))(uuid "7242611c-668a-50c7-9636-909f77d928b5"))(global_label "R_GAIN"(shape passive)(at 350.52000000000004 175.26 0)(effects(font(size 0.9 0.9))(justify right))(uuid "9004d059-f149-5619-b792-2466b2c5631c")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 350.52000000000004 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 365.76 175.26)(xy 370.84 175.26))(stroke(width 0)(type default))(uuid "7703772e-da7b-5afc-890b-02f63168d733"))(global_label "R_FB"(shape passive)(at 370.84 175.26 180)(effects(font(size 0.9 0.9))(justify left))(uuid "af60e031-ecf0-5266-a12c-81b85b5d115c")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 370.84 175.26 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:Conn_JP4")(at 63.5 231.14000000000001 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "7990f332-8a5d-5541-afff-f6adf92ce707")(property "Reference" "JP4"(at 63.5 226.06 0)(effects(font(size 1.27 1.27))))(property "Value" "R DIFF GAIN"(at 63.5 236.22000000000003 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:PinHeader_1x02_P2.54mm_Vertical"(at 63.5 231.14000000000001 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "735b5489-2db2-51e7-8556-37d725cf9479"))(pin "2"(uuid "6c701521-1ec8-53e3-9479-27a512f5e703"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "JP4")(unit 1)))))(wire(pts(xy 48.26 231.14000000000001)(xy 43.18 231.14000000000001))(stroke(width 0)(type default))(uuid "8fd1b51d-0f6b-5c6f-bf45-414f39dbb168"))(global_label "R_GAIN"(shape passive)(at 43.18 231.14000000000001 0)(effects(font(size 0.9 0.9))(justify right))(uuid "ebc32355-2775-59e3-b106-59fc01ba3ede")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 43.18 231.14000000000001 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 78.74 231.14000000000001)(xy 83.82 231.14000000000001))(stroke(width 0)(type default))(uuid "b551542a-c5fd-514f-be42-36c498e5e3ce"))(global_label "R_FB"(shape passive)(at 83.82 231.14000000000001 180)(effects(font(size 0.9 0.9))(justify left))(uuid "b768d931-ea61-563e-9ee3-da6b72e1ed4b")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 83.82 231.14000000000001 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:R")(at 162.56 231.14000000000001 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "9cff2cd9-3d83-5b3b-8895-a8b8be4c3b8a")(property "Reference" "R32"(at 162.56 226.06 0)(effects(font(size 1.27 1.27))))(property "Value" "100R"(at 162.56 236.22000000000003 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"(at 162.56 231.14000000000001 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "4eb21aa9-a46f-57b5-b1eb-804b2cc13365"))(pin "2"(uuid "7fd32d40-58b3-580b-8a41-33cdb7e660c1"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "R32")(unit 1)))))(wire(pts(xy 157.48 231.14000000000001)(xy 152.39999999999998 231.14000000000001))(stroke(width 0)(type default))(uuid "2f69db43-5c97-5646-8afd-18a9a88f52c2"))(global_label "R_P"(shape passive)(at 152.39999999999998 231.14000000000001 0)(effects(font(size 0.9 0.9))(justify right))(uuid "b0afe7e0-119f-561a-b8b0-b9e8a85752d1")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 152.39999999999998 231.14000000000001 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 167.64000000000001 231.14000000000001)(xy 172.72000000000003 231.14000000000001))(stroke(width 0)(type default))(uuid "94588f7f-aa7e-57c4-86c6-3a1ad93f653f"))(global_label "R_P_SER"(shape passive)(at 172.72000000000003 231.14000000000001 180)(effects(font(size 0.9 0.9))(justify left))(uuid "2416e326-4df6-5e2f-8b20-46381faff249")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 172.72000000000003 231.14000000000001 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:Conn_JP5")(at 261.62 231.14000000000001 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "587f1a66-7c34-570d-ae42-d8050ea1e8e8")(property "Reference" "JP5"(at 261.62 224.79 0)(effects(font(size 1.27 1.27))))(property "Value" "R NEG SEL"(at 261.62 237.49000000000004 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:PinHeader_1x03_P2.54mm_Vertical"(at 261.62 231.14000000000001 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "ca6b9ee9-e4c4-500c-a440-5109af5d1531"))(pin "2"(uuid "96b964d6-ac73-5132-989d-85b32b7a901b"))(pin "3"(uuid "0fde216d-c8bd-5a47-811d-a11f3d3066e7"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "JP5")(unit 1)))))(wire(pts(xy 246.38 229.87)(xy 241.29999999999998 229.87))(stroke(width 0)(type default))(uuid "39eb35a9-d638-5e9e-8990-8e3771d7cd64"))(global_label "GND"(shape passive)(at 241.29999999999998 229.87 0)(effects(font(size 0.9 0.9))(justify right))(uuid "888edf9e-f49d-5d61-ac66-1f1ef262aa8d")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 241.29999999999998 229.87 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 246.38 232.41000000000003)(xy 241.29999999999998 232.41000000000003))(stroke(width 0)(type default))(uuid "1aa9bc94-ed9c-5577-92c3-81f0d471b042"))(global_label "R_N_SEL"(shape passive)(at 241.29999999999998 232.41000000000003 0)(effects(font(size 0.9 0.9))(justify right))(uuid "ac8b17d4-b021-5c33-a81d-d3120317a876")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 241.29999999999998 232.41000000000003 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 276.86 229.87)(xy 281.94 229.87))(stroke(width 0)(type default))(uuid "8e9d32ae-12a4-5a92-81d9-034d973ec04b"))(global_label "R_N_SER"(shape passive)(at 281.94 229.87 180)(effects(font(size 0.9 0.9))(justify left))(uuid "03358724-561e-5940-a075-32d990c392f4")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 281.94 229.87 0)(effects(font(size 0.8 0.8))(hide yes))))(symbol(lib_id "RevA:R")(at 360.68 231.14000000000001 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid "1e167d24-32d1-5045-b921-1de9449e899c")(property "Reference" "R33"(at 360.68 226.06 0)(effects(font(size 1.27 1.27))))(property "Value" "10k 1%"(at 360.68 236.22000000000003 0)(effects(font(size 1.0 1.0))))(property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"(at 360.68 231.14000000000001 0)(effects(font(size 1 1))(hide yes)))(pin "1"(uuid "0b96e963-9a2b-5e8a-82a3-71a0d853d3cd"))(pin "2"(uuid "0c476866-cb27-5b73-b82a-caa1d4520e6d"))(instances(project "CoreS3_ILDA_RevA"(path "/bf914292-d252-5447-89ee-111204f4217c/f292ef6e-adb3-5211-a4f6-65c4f42e103f"(reference "R33")(unit 1)))))(wire(pts(xy 355.6 231.14000000000001)(xy 350.52000000000004 231.14000000000001))(stroke(width 0)(type default))(uuid "d35bb36b-ead7-5d06-beb5-abcca2172624"))(global_label "G_FB"(shape passive)(at 350.52000000000004 231.14000000000001 0)(effects(font(size 0.9 0.9))(justify right))(uuid "4ccbc25d-ba22-5e9c-abdf-07de07f66653")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 350.52000000000004 231.14000000000001 0)(effects(font(size 0.8 0.8))(hide yes))))(wire(pts(xy 365.76 231.14000000000001)(xy 370.84 231.14000000000001))(stroke(width 0)(type default))(uuid "b0610dc1-a01f-507a-8672-fe64133ee7d7"))(global_label "GND"(shape passive)(at 370.84 231.14000000000001 180)(effects(font(size 0.9 0.9))(justify left))(uuid "5363c9a2-c77b-55bd-91f6-4f90e10a0e48")(property "Intersheetrefs" "${INTERSHEET_REFS}"(at 370.84 231.14000000000001 0)(effects(font(size 0.8 0.8))(hide yes)))))
+(kicad_sch
+  (version 20250114)
+  (generator "cores3_ilda")
+  (generator_version "1.0")
+  (uuid "8b1f8cae-8057-5965-b15d-56bed35d5234")
+  (paper "A3")
+  (title_block
+    (title "R / Color driver and optional differential stage")
+    (date "2026-10-06")
+    (rev "A")
+  )
+  (lib_symbols
+    (symbol "RevA:AMP"
+      (pin_names
+        (offset 0.5)
+      )
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (property "Value" "AMP"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (symbol "AMP_1_1"
+        (polyline
+          (pts
+            (xy -10.16 10.16)
+            (xy -10.16 -10.16)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -10.16 -10.16)
+            (xy 10.16 0.0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 10.16 0.0)
+            (xy -10.16 10.16)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (pin input line
+          (at -15.24 5.08 0)
+          (length 5.08)
+          (name "+"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -15.24 -5.08 0)
+          (length 5.08)
+          (name "-"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin output line
+          (at 15.24 0.0 180)
+          (length 5.08)
+          (name "OUT"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+      )
+      (symbol "AMP_2_1"
+        (polyline
+          (pts
+            (xy -10.16 10.16)
+            (xy -10.16 -10.16)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -10.16 -10.16)
+            (xy 10.16 0.0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 10.16 0.0)
+            (xy -10.16 10.16)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (pin input line
+          (at -15.24 5.08 0)
+          (length 5.08)
+          (name "+"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "5"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -15.24 -5.08 0)
+          (length 5.08)
+          (name "-"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "6"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin output line
+          (at 15.24 0.0 180)
+          (length 5.08)
+          (name "OUT"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "7"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+      )
+      (symbol "AMP_3_1"
+        (rectangle
+          (start -7.62 -7.62)
+          (end 7.62 7.62)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin power_in line
+          (at 0.0 12.7 270)
+          (length 5.08)
+          (name "V+"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "8"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin power_in line
+          (at 0.0 -12.7 90)
+          (length 5.08)
+          (name "V-"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "4"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "RevA:Link"
+      (pin_names
+        (offset 0.5)
+      )
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (property "Value" "Link"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (symbol "Link_1_1"
+        (rectangle
+          (start -2.032 -1.778)
+          (end 2.032 1.778)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "RevA:Part_JP5"
+      (pin_names
+        (offset 0.5)
+      )
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (property "Value" "Part_JP5"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (symbol "Part_JP5_1_1"
+        (rectangle
+          (start -15.24 -15.24)
+          (end 15.24 15.24)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin passive line
+          (at -20.32 -10.16 0)
+          (length 5.08)
+          (name "GND / SE"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at -20.32 10.16 0)
+          (length 5.08)
+          (name "INV / DIFF"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 20.32 0.0 180)
+          (length 5.08)
+          (name "NEG"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "RevA:R"
+      (pin_names
+        (offset 0.5)
+      )
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (property "Value" "R"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.143 1.143)
+          )
+        )
+      )
+      (symbol "R_1_1"
+        (rectangle
+          (start -2.54 -1.016)
+          (end 2.54 1.016)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 0.9652 0.9652)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 0.9144 0.9144)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (text "R COLOR / SELECTABLE GAIN / OPTIONAL INVERTER"
+    (at 25.4 25.4 0)
+    (effects
+      (font
+        (size 1.524 1.524)
+      )
+      (justify left)
+    )
+    (uuid "0c56f79b-2385-50cf-99c1-7e66a0cf7042")
+  )
+  (symbol
+    (lib_id "RevA:AMP")
+    (at 134.62 96.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "cfffd8b9-e7b3-57f8-a971-5a1954684685")
+    (property "Reference" "U7"
+      (at 137.16 81.28 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "NJM4580DD"
+      (at 137.16 76.2 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:DIP-8_W7.62mm"
+      (at 134.62 96.52 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "3"
+      (uuid "b94ccbaf-c0bb-5f27-b9ad-f627b8805d18")
+    )
+    (pin "2"
+      (uuid "fc1c0844-657c-5501-b1c0-4a6c5476ad12")
+    )
+    (pin "1"
+      (uuid "eb0eb66f-3edf-56c5-9c55-b2288e6dfba1")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "U7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label "DAC_R"
+    (shape passive)
+    (at 119.38 91.44 0)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify right)
+    )
+    (uuid "afe4739b-eb50-5fa7-944b-6ab0977809b2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 119.38 91.44 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:R")
+    (at 81.28 132.08 270)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5c68912f-59a9-565e-b8a9-33da70af136d")
+    (property "Reference" "R29"
+      (at 93.98 129.54 90)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "10k 1%"
+      (at 93.98 124.46 90)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+      (at 81.28 132.08 90)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "00c17c4b-89f8-5e5b-b76a-c025a7ab28fb")
+    )
+    (pin "2"
+      (uuid "9d3b1b21-7238-538f-85d8-54a9e5d0c446")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "R29")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label "GND"
+    (shape passive)
+    (at 81.28 144.78 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "d28d3632-f54b-51a0-9133-7fcba3155643")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 144.78 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:R")
+    (at 175.26 165.1 180)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "cbc53f61-f449-54c4-8b24-5bf2d1bd95a0")
+    (property "Reference" "R30"
+      (at 175.26 157.48 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "2.2k 1%"
+      (at 175.26 152.4 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+      (at 175.26 165.1 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "03f5df57-a705-53ba-8b17-2d8ccaed8dfa")
+    )
+    (pin "2"
+      (uuid "9f951ebc-41f0-5a54-96b5-58be6c542726")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "R30")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:R")
+    (at 124.46 165.1 180)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "e8c65ba2-8c8a-5d84-95ae-015cc22f5d68")
+    (property "Reference" "R31"
+      (at 124.46 157.48 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "12k 1%"
+      (at 124.46 152.4 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+      (at 124.46 165.1 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "fa34845c-ca9e-5444-8e76-16ef0785bac3")
+    )
+    (pin "2"
+      (uuid "51fc0b55-68e1-5e21-a74b-6b74f9c88a63")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "R31")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:Link")
+    (at 124.46 195.58 180)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "7990f332-8a5d-5541-afff-f6adf92ce707")
+    (property "Reference" "JP4"
+      (at 124.46 187.96 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "R DIFF GAIN"
+      (at 124.46 182.88 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:PinHeader_1x02_P2.54mm_Vertical"
+      (at 124.46 195.58 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "735b5489-2db2-51e7-8556-37d725cf9479")
+    )
+    (pin "2"
+      (uuid "6c701521-1ec8-53e3-9479-27a512f5e703")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "JP4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:R")
+    (at 259.08 96.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "9cff2cd9-3d83-5b3b-8895-a8b8be4c3b8a")
+    (property "Reference" "R32"
+      (at 259.08 88.9 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "100R"
+      (at 259.08 83.82 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+      (at 259.08 96.52 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "4eb21aa9-a46f-57b5-b1eb-804b2cc13365")
+    )
+    (pin "2"
+      (uuid "7fd32d40-58b3-580b-8a41-33cdb7e660c1")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "R32")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label "R_P_SER"
+    (shape passive)
+    (at 353.06 96.52 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "3bfa1351-d392-598d-90a7-9e21faf578ba")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 353.06 96.52 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:AMP")
+    (at 259.08 228.6 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp yes)
+    (uuid "181ad7f3-03d2-52cf-a3a5-0949bd7787c1")
+    (property "Reference" "U9"
+      (at 261.62 213.36 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "NJM4580DD"
+      (at 261.62 208.28 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:DIP-8_W7.62mm"
+      (at 259.08 228.6 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "3"
+      (uuid "bca4f6f2-f6fe-5ea3-836e-488af2ce8a08")
+    )
+    (pin "2"
+      (uuid "77eb408d-ad59-523d-a73a-d9e3ae90f903")
+    )
+    (pin "1"
+      (uuid "cd0e4e9e-9fb6-534f-8df5-6f63a000c5be")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "U9")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:R")
+    (at 185.42 233.68 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp yes)
+    (uuid "a15ddcf7-dfbc-5d7d-8e8b-6e850680f872")
+    (property "Reference" "R41"
+      (at 185.42 226.06 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "10k 1%"
+      (at 185.42 220.98 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+      (at 185.42 233.68 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "857b2c86-b58f-55f0-8e31-a26a7a8d06b6")
+    )
+    (pin "2"
+      (uuid "261f8e2e-aa1a-59c1-b692-95dfef057663")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "R41")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label "GND"
+    (shape passive)
+    (at 243.84 228.6 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "9e3a6b7b-d3b8-5ba0-a6a4-b7c76593e731")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 243.84 228.6 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:R")
+    (at 259.08 251.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp yes)
+    (uuid "c1ebfa8f-68dd-5a7a-93a8-adfec734a571")
+    (property "Reference" "R42"
+      (at 259.08 243.84 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "10k 1%"
+      (at 259.08 238.76 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+      (at 259.08 251.46 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "ae58833a-a0c6-55c5-8aae-67f05b3b63ee")
+    )
+    (pin "2"
+      (uuid "30532f6d-b541-5e5b-90d0-d5b07aeaec24")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "R42")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:R")
+    (at 314.96 228.6 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp yes)
+    (uuid "e96ab5ca-8c70-504c-8813-bfc2cc446820")
+    (property "Reference" "R43"
+      (at 314.96 220.98 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "100R"
+      (at 314.96 215.9 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+      (at 314.96 228.6 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "a01d695b-4694-525d-b8af-2336b657f8eb")
+    )
+    (pin "2"
+      (uuid "89df8537-f035-5510-885b-39d78262b7fd")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "R43")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "RevA:Part_JP5")
+    (at 368.3 233.68 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "587f1a66-7c34-570d-ae42-d8050ea1e8e8")
+    (property "Reference" "JP5"
+      (at 368.3 215.9 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Value" "R NEG SEL"
+      (at 368.3 210.82 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+      )
+    )
+    (property "Footprint" "RevA:PinHeader_1x03_P2.54mm_Vertical"
+      (at 368.3 233.68 0)
+      (effects
+        (font
+          (size 1.016 1.016)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid "ca6b9ee9-e4c4-500c-a440-5109af5d1531")
+    )
+    (pin "3"
+      (uuid "0fde216d-c8bd-5a47-811d-a11f3d3066e7")
+    )
+    (pin "2"
+      (uuid "96b964d6-ac73-5132-989d-85b32b7a901b")
+    )
+    (instances
+      (project "CoreS3_ILDA_RevA"
+        (path "/bf914292-d252-5447-89ee-111204f4217c/8b1f8cae-8057-5965-b15d-56bed35d5234"
+          (reference "JP5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label "GND"
+    (shape passive)
+    (at 347.98 248.92 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "cf03baaf-47e2-52a6-97bd-6f98fb7bff1b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 347.98 248.92 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (global_label "R_N_SEL"
+    (shape passive)
+    (at 388.62 233.68 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "3d0119f7-fef2-5cc4-b48c-60c4cd4241f5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 388.62 233.68 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (text "SE: gain link OPEN; NEG 1-2. DIFF: gain link CLOSED; NEG 2-3; fit DNP inverter parts."
+    (at 25.4 274.32 0)
+    (effects
+      (font
+        (size 1.1684 1.1684)
+      )
+      (justify left)
+    )
+    (uuid "1a72ea7b-dbaf-55e1-9aef-dc1e21c76a31")
+  )
+  (global_label "R_FB"
+    (shape passive)
+    (at 100.33 101.6 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "d64519ef-0334-5fcc-9e74-315519e15162")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 100.33 101.6 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (global_label "R_P"
+    (shape passive)
+    (at 189.23 210.82 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "b870af2c-f4c9-549d-b9e9-bff498d39331")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 189.23 210.82 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (global_label "R_GAIN"
+    (shape passive)
+    (at 149.86 165.1 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "c2f902b3-becb-59f5-ac2b-ae1bef0fe373")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 149.86 165.1 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (global_label "R_INV"
+    (shape passive)
+    (at 210.82 233.68 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "5faf7536-9bce-51b1-ad27-665eff5e48a1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 210.82 233.68 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (global_label "R_N"
+    (shape passive)
+    (at 278.13 251.46 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "2516708c-dde3-59e6-a0a2-ee0cc7b77347")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 278.13 251.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (global_label "R_N_SER"
+    (shape passive)
+    (at 331.47 228.6 180)
+    (effects
+      (font
+        (size 1.016 1.016)
+      )
+      (justify left)
+    )
+    (uuid "c38bdf46-c35d-5aac-badc-c31a292040b5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 331.47 228.6 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 81.28 101.6)
+      (xy 81.28 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "31256829-7aa4-58d8-8f72-99604c050725")
+  )
+  (wire
+    (pts
+      (xy 81.28 101.6)
+      (xy 101.6 101.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0953024a-02fa-5337-a2f8-1b223c5bf4b5")
+  )
+  (wire
+    (pts
+      (xy 81.28 139.7)
+      (xy 81.28 144.78)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "7e62ccf5-c5ce-5c95-a56a-d1fb09fdc197")
+  )
+  (wire
+    (pts
+      (xy 101.6 101.6)
+      (xy 101.6 165.1)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "fcee27ee-d57c-51bf-bb44-7ecfc134dae7")
+  )
+  (wire
+    (pts
+      (xy 101.6 101.6)
+      (xy 119.38 101.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "fc26b0ef-8db2-5fa8-90c8-5d182a97715a")
+  )
+  (wire
+    (pts
+      (xy 101.6 165.1)
+      (xy 109.22 165.1)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "715f8725-303b-564b-90d5-1c6cdd0735ba")
+  )
+  (wire
+    (pts
+      (xy 109.22 165.1)
+      (xy 109.22 195.58)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d8a46bb0-1d82-5f78-b293-ae6a1b5fbdbc")
+  )
+  (wire
+    (pts
+      (xy 109.22 165.1)
+      (xy 116.84 165.1)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "23236760-b4b8-5a25-9736-ef7d3ae714bd")
+  )
+  (wire
+    (pts
+      (xy 109.22 195.58)
+      (xy 116.84 195.58)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "74d16568-fa96-50af-be4d-b346d624a120")
+  )
+  (wire
+    (pts
+      (xy 132.08 165.1)
+      (xy 144.78 165.1)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "da9e28ce-7f29-524e-a78e-9ccb7a969d5e")
+  )
+  (wire
+    (pts
+      (xy 132.08 195.58)
+      (xy 144.78 195.58)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4d352422-8d7f-54f2-bf1f-8173911b0eee")
+  )
+  (wire
+    (pts
+      (xy 144.78 165.1)
+      (xy 144.78 195.58)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "dcabd9e3-0314-5b02-9c07-f2eff42a9665")
+  )
+  (wire
+    (pts
+      (xy 144.78 165.1)
+      (xy 167.64 165.1)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "85d6e4f2-4b82-589b-bc13-562257fdb5cd")
+  )
+  (wire
+    (pts
+      (xy 149.86 96.52)
+      (xy 205.74 96.52)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d6920e19-a70c-5eb0-b7ba-41265cc90993")
+  )
+  (wire
+    (pts
+      (xy 160.02 210.82)
+      (xy 160.02 233.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "85b41f44-8088-55fa-89af-39e1eb79c17d")
+  )
+  (wire
+    (pts
+      (xy 160.02 210.82)
+      (xy 218.44 210.82)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "94a5dcb2-6f0e-5bb2-b778-9f80a4783b62")
+  )
+  (wire
+    (pts
+      (xy 160.02 233.68)
+      (xy 177.8 233.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f68b1275-c194-5148-9669-3a5c0df56f7c")
+  )
+  (wire
+    (pts
+      (xy 182.88 165.1)
+      (xy 205.74 165.1)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c68aae7c-284d-5f99-a38a-fcec2a3dd6fd")
+  )
+  (wire
+    (pts
+      (xy 193.04 233.68)
+      (xy 228.6 233.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "132f10da-27c5-5a41-aeaa-166447127ece")
+  )
+  (wire
+    (pts
+      (xy 205.74 96.52)
+      (xy 205.74 165.1)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "420b1d89-34ce-556d-8eff-6127115866f8")
+  )
+  (wire
+    (pts
+      (xy 205.74 96.52)
+      (xy 218.44 96.52)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "cbcc5ab6-d616-5075-bc66-d6782e27765b")
+  )
+  (wire
+    (pts
+      (xy 218.44 96.52)
+      (xy 218.44 210.82)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "be3ac829-9ceb-5e32-ba04-2a99cbfdd5e1")
+  )
+  (wire
+    (pts
+      (xy 218.44 96.52)
+      (xy 251.46 96.52)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3daef04b-6c00-5311-9965-14cc4d5afb54")
+  )
+  (wire
+    (pts
+      (xy 228.6 233.68)
+      (xy 228.6 251.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "853bad5d-3482-5ed5-9eba-f81ba4144d4c")
+  )
+  (wire
+    (pts
+      (xy 228.6 233.68)
+      (xy 243.84 233.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "44437985-2017-5862-9a3a-0bd2bd3a14a3")
+  )
+  (wire
+    (pts
+      (xy 228.6 251.46)
+      (xy 251.46 251.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c162b68d-b968-55f3-a892-c870954ce593")
+  )
+  (wire
+    (pts
+      (xy 243.84 223.52)
+      (xy 243.84 228.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "1e3f74a1-2b75-5b3f-8035-80fb41dc5b02")
+  )
+  (wire
+    (pts
+      (xy 266.7 96.52)
+      (xy 353.06 96.52)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "7352aa96-ddaf-54d4-8dee-9f782582fb64")
+  )
+  (wire
+    (pts
+      (xy 266.7 251.46)
+      (xy 289.56 251.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "2dcf1350-ae5b-5853-8a05-7b2078f4a670")
+  )
+  (wire
+    (pts
+      (xy 274.32 228.6)
+      (xy 289.56 228.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c9d4fa73-7a6a-5d27-b487-f636101d1426")
+  )
+  (wire
+    (pts
+      (xy 289.56 228.6)
+      (xy 289.56 251.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "afe1f8be-5990-542c-9f90-fbed360aad62")
+  )
+  (wire
+    (pts
+      (xy 289.56 228.6)
+      (xy 307.34 228.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "e4b95788-d0cc-59ee-bdfb-e6ec5352a7c9")
+  )
+  (wire
+    (pts
+      (xy 322.58 228.6)
+      (xy 340.36 228.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "96a1a0f8-fcab-5776-b0f7-0da9db3b68d8")
+  )
+  (wire
+    (pts
+      (xy 340.36 223.52)
+      (xy 340.36 228.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "bf639c79-03c3-594f-8785-8ffa650445ec")
+  )
+  (wire
+    (pts
+      (xy 340.36 223.52)
+      (xy 347.98 223.52)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "de4c1ad5-0960-5691-b318-20883c52d3c7")
+  )
+  (wire
+    (pts
+      (xy 347.98 243.84)
+      (xy 347.98 248.92)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "245773da-5e09-5f2e-bf03-93490032965d")
+  )
+  (junction
+    (at 101.6 101.6)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "955f5f93-4b50-555f-bfb5-e94786621449")
+  )
+  (junction
+    (at 109.22 165.1)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "5b9a9e3a-84ae-5237-8a9a-03511559c02d")
+  )
+  (junction
+    (at 144.78 165.1)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "99f5fa26-c163-5f13-af2d-9f7ea7eb8b2e")
+  )
+  (junction
+    (at 205.74 96.52)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "89dc37ca-793d-5457-ac59-5fce0ba5e809")
+  )
+  (junction
+    (at 228.6 233.68)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "3fb054b8-8066-50e3-9817-1009b99f8d59")
+  )
+  (junction
+    (at 218.44 96.52)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "27320b44-d622-5e0d-8a41-02efe435e326")
+  )
+  (junction
+    (at 289.56 228.6)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "45a4ac1e-5393-5e03-b8bf-2f4572bedbd9")
+  )
+)
